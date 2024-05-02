@@ -160,3 +160,46 @@ td {
   color: #676767;
   padding: 10px;
 }
+
+@media screen and (max-width: 480px) {
+  nav {
+    flex-direction: column !important;
+    gap: 10px;
+  }
+
+  #nav_delivery {
+    text-align: center;
+  }
+
+  .vertical_line {
+    display: none;
+  }
+
+  #search_bar {
+    width: 100%;
+  }
+
+  #hero_section {
+    display: none !important;
+  }
+
+  #big_cards {
+    margin-top: 50px;
+  }
+
+  #footer_r2,
+  #footer_r1 {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+
+  #footer_r2 > p {
+    width: 100%;
+    text-align: justify;
+  }
+
+  #footer_r3 {
+    text-align: justify;
+  }
+}
